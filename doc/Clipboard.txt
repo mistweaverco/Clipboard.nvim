@@ -1,0 +1,26 @@
+*Clipboard.txt*  A Vim/Neovim plugin to copy buffer contents to the  clipboard.
+
+Author:  Marco Kellershoff <https://gorilla.moe/>
+License: MIT License (see |license|)
+
+INTRODUCTION                                    *Taskfile*
+
+This plugin's main purpose is to copy the contents of a buffer to the system
+clipboard.
+
+COMMANDS                                        *Taskfile-commands*
+
+:Clipboard
+
+MAPPINGS                                        *Taskfile-mappings*
+
+There are no mappings registered by the plugin.
+You need to map it according to your preference.
+
+ABOUT                                           *Taskfile-about*
+
+Grab the latest version or report a bug:
+
+http://git.superevilmegaco.com/superevilmegaco/Neovim/Clipboard.nvim
+
+ vim:tw=78:et:ft=help:norl:
