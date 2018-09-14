@@ -70,10 +70,14 @@ function! Clipboard#Verbose(enable)
         endif
 endfunction
 
-function! Clipboard#Run()
+function! Clipboard#FromFile()
         let cmd =  "xclip -sel clip < " . s:GetCurrentFile()
         call s:ExecExternalCommand(cmd)
 endfunction
 
-command! Clipboard call Clipboard#Run()
+function! Clipboard#FromBuffer()
+        execute ":%y\"*"
+endfunction
+
+command! Clipboard call Clipboard#FromBuffer()
 
