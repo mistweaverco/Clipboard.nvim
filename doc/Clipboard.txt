@@ -3,21 +3,21 @@
 Author:  Marco Kellershoff <https://gorilla.moe/>
 License: MIT License (see |license|)
 
-INTRODUCTION                                    *Taskfile*
+INTRODUCTION                                    *Clipboard*
 
 This plugin's main purpose is to copy the contents of a buffer to the system
 clipboard.
 
-COMMANDS                                        *Taskfile-commands*
+COMMANDS                                        *Clipboard-commands*
 
 :Clipboard
 
-MAPPINGS                                        *Taskfile-mappings*
+MAPPINGS                                        *Clipboard-mappings*
 
 There are no mappings registered by the plugin.
 You need to map it according to your preference.
 
-ABOUT                                           *Taskfile-about*
+ABOUT                                           *Clipboard-about*
 
 Grab the latest version or report a bug:
 
